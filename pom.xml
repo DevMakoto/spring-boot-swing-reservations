@@ -14,9 +14,13 @@
         <version>1.3.3.RELEASE</version>
     </parent>
 
-    <properties>
-        <guava.version>18.0</guava.version>
-    </properties>
+         <properties>
+  <sonar.projectKey>DevMakoto_spring-boot-swing-reservations</sonar.projectKey>
+  <sonar.organization>devmakoto</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>7cb6f784bb28efcebd1fc9a860b9ccab1c58dbe1</sonar.login>
+   <guava.version>18.0</guava.version>
+</properties>
 
     <dependencies>
         <dependency>
